@@ -13,6 +13,7 @@
 		B1BE729D25D444B400286425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BE729B25D444B400286425 /* Main.storyboard */; };
 		B1BE729F25D444B500286425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BE729E25D444B500286425 /* Assets.xcassets */; };
 		B1BE72A225D444B500286425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BE72A025D444B500286425 /* LaunchScreen.storyboard */; };
+		B1CC6B0725D5990800675CC1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6B0625D5990800675CC1 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B1BE729E25D444B500286425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1BE72A125D444B500286425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1BE72A325D444B500286425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1CC6B0625D5990800675CC1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				B1BE729E25D444B500286425 /* Assets.xcassets */,
 				B1BE72A025D444B500286425 /* LaunchScreen.storyboard */,
 				B1BE72A325D444B500286425 /* Info.plist */,
+				B1CC6B0625D5990800675CC1 /* ViewController2.swift */,
 			);
 			path = IOS_Senin_6_Animation;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1BE729A25D444B400286425 /* ViewController.swift in Sources */,
+				B1CC6B0725D5990800675CC1 /* ViewController2.swift in Sources */,
 				B1BE729625D444B400286425 /* AppDelegate.swift in Sources */,
 				B1BE729825D444B400286425 /* SceneDelegate.swift in Sources */,
 			);
