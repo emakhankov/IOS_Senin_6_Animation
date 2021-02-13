@@ -7,16 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B180E48925D6F38800440F04 /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B180E48825D6F38800440F04 /* Logo.jpg */; };
+		B180E48C25D6F44200440F04 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B180E48B25D6F44200440F04 /* FirstViewController.swift */; };
 		B1BE729625D444B400286425 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE729525D444B400286425 /* AppDelegate.swift */; };
 		B1BE729825D444B400286425 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE729725D444B400286425 /* SceneDelegate.swift */; };
 		B1BE729A25D444B400286425 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BE729925D444B400286425 /* ViewController.swift */; };
 		B1BE729D25D444B400286425 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BE729B25D444B400286425 /* Main.storyboard */; };
 		B1BE729F25D444B500286425 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1BE729E25D444B500286425 /* Assets.xcassets */; };
 		B1BE72A225D444B500286425 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1BE72A025D444B500286425 /* LaunchScreen.storyboard */; };
+		B1C3B96525D83BFC00D67A9C /* ViewController3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1C3B96425D83BFC00D67A9C /* ViewController3.swift */; };
+		B1C3B96C25D84A2C00D67A9C /* Logo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B1C3B96B25D84A2B00D67A9C /* Logo.jpg */; };
 		B1CC6B0725D5990800675CC1 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CC6B0625D5990800675CC1 /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B180E48825D6F38800440F04 /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
+		B180E48B25D6F44200440F04 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		B1BE729225D444B400286425 /* IOS_Senin_6_Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Senin_6_Animation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1BE729525D444B400286425 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1BE729725D444B400286425 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,6 +31,8 @@
 		B1BE729E25D444B500286425 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1BE72A125D444B500286425 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1BE72A325D444B500286425 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1C3B96425D83BFC00D67A9C /* ViewController3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController3.swift; sourceTree = "<group>"; };
+		B1C3B96B25D84A2B00D67A9C /* Logo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Logo.jpg; sourceTree = "<group>"; };
 		B1CC6B0625D5990800675CC1 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +66,7 @@
 		B1BE729425D444B400286425 /* IOS_Senin_6_Animation */ = {
 			isa = PBXGroup;
 			children = (
+				B180E48825D6F38800440F04 /* Logo.jpg */,
 				B1BE729525D444B400286425 /* AppDelegate.swift */,
 				B1BE729725D444B400286425 /* SceneDelegate.swift */,
 				B1BE729925D444B400286425 /* ViewController.swift */,
@@ -66,6 +75,9 @@
 				B1BE72A025D444B500286425 /* LaunchScreen.storyboard */,
 				B1BE72A325D444B500286425 /* Info.plist */,
 				B1CC6B0625D5990800675CC1 /* ViewController2.swift */,
+				B180E48B25D6F44200440F04 /* FirstViewController.swift */,
+				B1C3B96425D83BFC00D67A9C /* ViewController3.swift */,
+				B1C3B96B25D84A2B00D67A9C /* Logo.jpg */,
 			);
 			path = IOS_Senin_6_Animation;
 			sourceTree = "<group>";
@@ -127,7 +139,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B180E48925D6F38800440F04 /* Logo.jpg in Resources */,
 				B1BE72A225D444B500286425 /* LaunchScreen.storyboard in Resources */,
+				B1C3B96C25D84A2C00D67A9C /* Logo.jpg in Resources */,
 				B1BE729F25D444B500286425 /* Assets.xcassets in Resources */,
 				B1BE729D25D444B400286425 /* Main.storyboard in Resources */,
 			);
@@ -140,7 +154,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B180E48C25D6F44200440F04 /* FirstViewController.swift in Sources */,
 				B1BE729A25D444B400286425 /* ViewController.swift in Sources */,
+				B1C3B96525D83BFC00D67A9C /* ViewController3.swift in Sources */,
 				B1CC6B0725D5990800675CC1 /* ViewController2.swift in Sources */,
 				B1BE729625D444B400286425 /* AppDelegate.swift in Sources */,
 				B1BE729825D444B400286425 /* SceneDelegate.swift in Sources */,
